@@ -1,6 +1,6 @@
 baseurl: https://pytips.netlify.app/
 languageCode: en-us
-title: welcome to PyTips
+title: Welcome to PyTips
 theme: blackburn
 author: Priyanga Dilini Talagala
 copyright: '&copy; 2022. All rights reserved.'
@@ -10,7 +10,7 @@ indexes:
   tag: tags
   topic: topics
 params:
-  brand: Blackburn
+  brand: PyTips
   dateFormat: 02 Jan 2006, 15:04
   disqus: Your Disqus shortname
   googleAnalytics: Your Google Analytics tracking ID
