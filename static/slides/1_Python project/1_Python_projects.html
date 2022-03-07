@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Create your first Python project</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Priyanga D. Talagala" />
+    <meta name="date" content="2022-03-07" />
+    <script src="libs/header-attrs-2.11.22/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome-5.0.12/css/fontawesome-all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Create your first Python project
+### Dr. Priyanga D. Talagala
+### University of Moratuwa
+### 2022-03-07
+
+---
+
+
+## Prerequisites
+
+- Make sure you're using PyCharm Community or Professional.
+
+- Make sure you've already installed Python. Python is already installed on your computer if you're running macOS or Linux. Python can be downloaded from python.org.
+
+- Let's develop a Python script to get started with PyCharm.
+
+---
+
+class: inverse, middle, center
+
+# Creating a Python project
+
+---
+
+1. Click New Project if you're on the Welcome screen. 
+
+&lt;img src="fig/1_welcomescreen.png" width="70%" /&gt;
+
+---
+
+Choose File -&gt; New Project from the main menu if you already have a project open.
+
+&lt;img src="fig/2_newproject.png" width="100%" /&gt;
+
+
+---
+
+Although PyCharm may be used to create a variety of projects, we'll use it to create a simple Pure Python project in this tutorial. This template will start with an empty project.
+
+&lt;img src="fig/3_screen.png" width="70%" /&gt;
+
+
+- Choose a location for the project. Select the directory for your project by clicking the Browse button next to the Location field.
+
+- Give a name for the project
+
+---
+
+-  According to Python best practices, each project should have its own virtualenv.
+
+- PyCharm creates a fresh virtual environment for you most of the time, and you don't have to do anything. You can still see and change the venv options. Select a tool to construct a new virtual environment by expanding the **Python Interpreter: New Virtualenv Environment node**. Select the Virtualenv tool and enter the environment's location as well as the base Python interpreter for the new virtual environment.
+
+&lt;img src="fig/4_interpreter.png" width="70%" /&gt;
+---
+
+- The path to the Python executable must be specified when establishing the base interpreter. PyCharm offers two alternatives if it detects no Python on your machine: download the latest Python versions from [python.org](https://www.python.org/) or specify a path to the Python executable (in case of non-standard installation).
+
+- Refer to [Configure a Python interpreter](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html#add-existing-interpreter) for more details.
+
+- Now click the Create button at the bottom of the New Project dialog.
+
+- If you already have a project open, PyCharm will ask if you want to create a new project in the current window or in a new one once you click Create. Choose Open in current window to close the current project, although you can return to it later.
+
+
+---
+class: inverse, middle, center
+
+# Opening a project
+
+
+---
+
+&lt;!--
+For further information, see the pages [Open, reopen, and close projects](https://www.jetbrains.com/help/pycharm/open-projects.html).
+
+--&gt;
+
+- On the Welcome Screen, click the Open link.
+
+- From the main menu, select File --&gt; Open.
+
+&lt;img src="fig/5_open.png" width="70%" /&gt;
+
+
+---
+class: inverse, middle, center
+
+# Reopening recent projects
+- PyCharm keeps a history list of recent projects from which you can choose the one you want.
+
+- When PyCharm starts, the most recent project reopens by default (unless this option is disabled on the System Settings page of the Settings/Preferences dialog.
+
+---
+class: inverse, middle, center
+ # Closing projects
+ 
+If you need to close only one project, you can either close the project window or select File --&gt; Close Project from the main menu.
+
+
+---
+class: inverse, middle, center
+## Remove a project from the list of recent projects
+
+
+---
+
+- Click the closing icon for the project to remove.
+
+- The selected project will be removed from the list of the recent project in the **Project window** and on the **Welcome screen**.
+
+
+&lt;img src="fig/6_closing.png" width="100%" /&gt;
+
+
+---
+
+- To remove a project only from the list on the Welcome Screen, right-click the target project and select Remove Selected from Welcome Screen.
+
+&lt;img src="fig/7_closing.png" width="100%" /&gt;
+
+
+
+---
+class: inverse, middle, center
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal
+
+# Acknowledgements:
+
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
+
+## Key References 
+
+- [Step 1. Create and run your first Python project](https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html)
+
+All rights reserved by Priyanga D Talagala
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

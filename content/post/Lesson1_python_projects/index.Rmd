@@ -1,0 +1,14 @@
+---
+title: "Create your first Python project"
+author: "Priyanga D. Talagala"
+date: 2022-03-06T21:13:14-05:00
+categories: ["Python"]
+tags: ["Python", "Jupyter", "Modelling"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+
+👷 [Click here: Create your first Python project](/slides/1_Python project/1_Python_projects.html)
