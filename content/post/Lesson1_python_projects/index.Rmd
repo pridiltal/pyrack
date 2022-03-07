@@ -12,3 +12,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 
 👷 [Click here: Create your first Python project](/slides/1_Python project/1_Python_projects.html)
+
+```{r echo=FALSE}
+knitr::include_url('https://pytips.netlify.app/slides/1_python%20project/1_python_projects#1')
+```
