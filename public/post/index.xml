@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on welcome to PyTips</title>
-    <link>https://www.example.com/post/</link>
+    <link>https://pytips.netlify.app/post/</link>
     <description>Recent content in Posts on welcome to PyTips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Mar 2022 21:13:14 -0500</lastBuildDate><atom:link href="https://www.example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 21:13:14 -0500</lastBuildDate><atom:link href="https://pytips.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Additional Resources</title>
-      <link>https://www.example.com/post/additional-resources/</link>
+      <link>https://pytips.netlify.app/post/additional-resources/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/post/additional-resources/</guid>
+      <guid>https://pytips.netlify.app/post/additional-resources/</guid>
       <description>Online Books to Learn Python and Data Science </description>
     </item>
     
     <item>
       <title>Welcome to PyTips</title>
-      <link>https://www.example.com/post/2022-3-07-workshop/</link>
+      <link>https://pytips.netlify.app/post/2022-3-07-workshop/</link>
       <pubDate>Sun, 06 Mar 2022 21:13:14 -0500</pubDate>
       
-      <guid>https://www.example.com/post/2022-3-07-workshop/</guid>
+      <guid>https://pytips.netlify.app/post/2022-3-07-workshop/</guid>
       <description>Data Analysis and Programming with Python Programming Language This workshop website is developed and maintained by Dr. Priyanga D. Talagala
 This hands-on workshop aims to equip participants with the fundamentals of programming in Python and give them skills needed to apply data analysis approaches to their research questions. The workshop will be taught in a similar style to Data Carpentry workshops. Data Carpentry’s mission is to train researchers in the core data skills for efficient, shareable, and reproducible research practices.</description>
     </item>

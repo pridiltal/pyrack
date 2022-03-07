@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on welcome to PyTips</title>
-    <link>https://www.example.com/tags/</link>
+    <link>https://pytips.netlify.app/tags/</link>
     <description>Recent content in Tags on welcome to PyTips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Mar 2022 21:13:14 -0500</lastBuildDate><atom:link href="https://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 21:13:14 -0500</lastBuildDate><atom:link href="https://pytips.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jupyter</title>
-      <link>https://www.example.com/tags/jupyter/</link>
+      <link>https://pytips.netlify.app/tags/jupyter/</link>
       <pubDate>Sun, 06 Mar 2022 21:13:14 -0500</pubDate>
       
-      <guid>https://www.example.com/tags/jupyter/</guid>
+      <guid>https://pytips.netlify.app/tags/jupyter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling</title>
-      <link>https://www.example.com/tags/modelling/</link>
+      <link>https://pytips.netlify.app/tags/modelling/</link>
       <pubDate>Sun, 06 Mar 2022 21:13:14 -0500</pubDate>
       
-      <guid>https://www.example.com/tags/modelling/</guid>
+      <guid>https://pytips.netlify.app/tags/modelling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://www.example.com/tags/python/</link>
+      <link>https://pytips.netlify.app/tags/python/</link>
       <pubDate>Sun, 06 Mar 2022 21:13:14 -0500</pubDate>
       
-      <guid>https://www.example.com/tags/python/</guid>
+      <guid>https://pytips.netlify.app/tags/python/</guid>
       <description></description>
     </item>
     

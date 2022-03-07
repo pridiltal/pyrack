@@ -1,4 +1,4 @@
-baseurl: https://www.example.com/
+baseurl: https://pytips.netlify.app/
 languageCode: en-us
 title: welcome to PyTips
 theme: blackburn
