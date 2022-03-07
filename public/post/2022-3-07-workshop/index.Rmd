@@ -10,7 +10,13 @@ tags: ["Python", "Jupyter", "Modelling"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
+
 # Data Analysis and Programming with Python Programming Language
+
+
+```{r intro, out.width="70%", echo=FALSE}
+knitr::include_graphics("intro.png")
+```
 
 This workshop website is developed and maintained by Dr. Priyanga D. Talagala
 
