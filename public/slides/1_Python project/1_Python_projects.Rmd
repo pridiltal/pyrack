@@ -1,8 +1,8 @@
 ---
 title: "Create your first Python project"
-author: "Dr. Priyanga D. Talagala"
-institute: "University of Moratuwa"
-date: "`r Sys.Date()`"
+author: "Priyanga Dilini Talagala"
+institute: "[https://prital.netlify.com/](prital.netlify.com/)"
+#date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
